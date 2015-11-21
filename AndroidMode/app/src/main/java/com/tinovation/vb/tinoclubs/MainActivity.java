@@ -89,21 +89,12 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_clubs) {
             System.out.println("This is Clubs");
-            sendMessage(ClubsView);
 
         } else if (id == R.id.nav_calendar) {
             System.out.println("This is Cal");
 
         }
         return true;
-    }
-
-    /** Called when the user clicks the Send button */
-    public void sendMessage(View view) {
-        Intent intent = new Intent(this, ClubsView.class);
-        String message = "This is the Clubs View";
-        intent.putExtra("Hello", message);
-        startActivity(intent);
     }
 
 }
