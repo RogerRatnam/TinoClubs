@@ -13,6 +13,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.content.Intent;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -77,6 +79,8 @@ public class MainActivity extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
+
+
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
@@ -84,12 +88,24 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_clubs) {
-            System.out.println("Hello World");
+            System.out.println("This is Clubs");
+            sendMessage(ClubsView);
+
         } else if (id == R.id.nav_calendar) {
             System.out.println("This is Cal");
+
         }
         return true;
     }
+
+    /** Called when the user clicks the Send button */
+    public void sendMessage(View view) {
+        Intent intent = new Intent(this, ClubsView.class);
+        String message = "This is the Clubs View";
+        intent.putExtra("Hello", message);
+        startActivity(intent);
+    }
+
 }
  /*else if (id == R.id.nav_slideshow) {
 
@@ -99,4 +115,5 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_send) {
 
-        }*/
+        }
+*/

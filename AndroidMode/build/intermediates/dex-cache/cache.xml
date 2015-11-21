@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\Programming\GitHub\AndoidProjectFromTinovation\TinoClubs\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="F:\Programming\GitHub\AndoidProjectFromTinovation\TinoClubs\app\build\intermediates\pre-dexed\debug\classes-33ad07d12bcce84f6d5a706a5780ab527b81f94a.jar" />
+    </item>
+    <item
+        jar="F:\Programming\GitHub\AndoidProjectFromTinovation\TinoClubs\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="F:\Programming\GitHub\AndoidProjectFromTinovation\TinoClubs\app\build\intermediates\pre-dexed\debug\classes-f56abde1b295c8d25969374eae6f7d43d6187bdc.jar" />
+    </item>
+    <item
+        jar="F:\Programming\GitHub\AndoidProjectFromTinovation\TinoClubs\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="F:\Programming\GitHub\AndoidProjectFromTinovation\TinoClubs\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-142f05349587b92473e2bbee6fccd591643eb9a8.jar" />
+    </item>
+    <item
+        jar="G:\InsSoftware\AndroidStudio\AndroidStudioSDK\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="F:\Programming\GitHub\AndoidProjectFromTinovation\TinoClubs\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-9ff79b408d8679bc914cdea16763def651742301.jar" />
+    </item>
+    <item
+        jar="F:\Programming\GitHub\AndoidProjectFromTinovation\TinoClubs\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="F:\Programming\GitHub\AndoidProjectFromTinovation\TinoClubs\app\build\intermediates\pre-dexed\debug\classes-96952f627db798a4e454754f3617e3871d661f50.jar" />
+    </item>
+    <item
+        jar="F:\Programming\GitHub\AndoidProjectFromTinovation\TinoClubs\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="F:\Programming\GitHub\AndoidProjectFromTinovation\TinoClubs\app\build\intermediates\pre-dexed\debug\classes-219e8f7baa7c02cef85fa52d97da2e69cd23924c.jar" />
+    </item>
+
+</items>
