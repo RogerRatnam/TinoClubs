@@ -1,0 +1,1 @@
+This is the iOS version of The Tino Clubs App.
