@@ -29,7 +29,10 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="58dp"
-        android:typeface="serif" />
+        android:typeface="serif"
+        android:background="#529df8"
+        android:backgroundTint="#529df8"
+        android:clickable="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -40,5 +43,8 @@
         android:layout_above="@+id/officerLogin"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="26dp"
-        android:typeface="serif" />
+        android:typeface="serif"
+        android:background="#529df8"
+        android:backgroundTint="#529df8"
+        android:clickable="true" />
 </RelativeLayout>
